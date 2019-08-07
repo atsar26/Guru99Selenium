@@ -18,7 +18,7 @@ public class Base {
 	public WebDriver initializeDriver() throws Exception {
 		
 		prop = new Properties();
-		String filePath = "E:\\JAVA\\myWorkspace\\Git\\Guru99Selenium\\src\\main\\java\\resources\\data.properties";
+		String filePath = "D:\\Bhavana\\data.properties";
 		FileInputStream fis = new FileInputStream(filePath);
 
 		prop.load(fis);
