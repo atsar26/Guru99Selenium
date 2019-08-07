@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15814" started-at="2019-08-07T13:39:20Z" finished-at="2019-08-07T13:39:35Z">
+  <suite name="Default suite" duration-ms="15556" started-at="2019-08-07T15:10:18Z" finished-at="2019-08-07T15:10:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15814" started-at="2019-08-07T13:39:20Z" finished-at="2019-08-07T13:39:35Z">
-      <class name="com.Guru99Selenium.HomePage">
-        <test-method status="PASS" signature="getURL()[pri:0, instance:com.Guru99Selenium.HomePage@6a4f787b]" name="getURL" duration-ms="15779" started-at="2019-08-07T13:39:20Z" finished-at="2019-08-07T13:39:35Z">
+    <test name="Default test" duration-ms="15556" started-at="2019-08-07T15:10:18Z" finished-at="2019-08-07T15:10:34Z">
+      <class name="day1.Day1MobileMenu">
+        <test-method status="PASS" signature="MobileSortByName()[pri:0, instance:day1.Day1MobileMenu@28d25987]" name="MobileSortByName" duration-ms="15514" started-at="2019-08-07T15:10:18Z" finished-at="2019-08-07T15:10:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getURL -->
-      </class> <!-- com.Guru99Selenium.HomePage -->
+        </test-method> <!-- MobileSortByName -->
+      </class> <!-- day1.Day1MobileMenu -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

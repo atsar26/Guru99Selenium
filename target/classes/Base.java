@@ -27,19 +27,19 @@ public class Base {
 		
 		//for Google Chrome 
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\JAVA\\Selenium\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Bhavana\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		//for Firefox 
 		else if(browserName.equals("firefox")){
-			System.setProperty("webdriver.firefox.marionette", "E:\\\\JAVA\\\\Selenium\\\\chromedriver_win32\\\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", "D:\\Bhavana\\geckodriver.exe");
 			//firefox
 			driver = new FirefoxDriver();
 		}
 		
 		//for Internet Explore
 		else if(browserName.equals("IE")){
-			System.setProperty("webdriver.ie.driver", "E:\\\\JAVA\\\\Selenium\\\\chromedriver_win32\\\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "D:\\Bhavana\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
 		
