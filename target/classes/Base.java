@@ -18,7 +18,7 @@ public class Base {
 	public WebDriver initializeDriver() throws Exception {
 		
 		prop = new Properties();
-		String filePath = "E:\\JAVA\\myWorkspace\\Git\\Guru99Selenium\\src\\main\\java\\resources\\data.properties";
+		String filePath = "D:\\Bhavana\\data.properties";
 		FileInputStream fis = new FileInputStream(filePath);
 
 		prop.load(fis);
@@ -27,19 +27,19 @@ public class Base {
 		
 		//for Google Chrome 
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\JAVA\\Selenium\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Bhavana\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		//for Firefox 
 		else if(browserName.equals("firefox")){
-			System.setProperty("webdriver.firefox.marionette", "E:\\\\JAVA\\\\Selenium\\\\chromedriver_win32\\\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", "D:\\Bhavana\\geckodriver.exe");
 			//firefox
 			driver = new FirefoxDriver();
 		}
 		
 		//for Internet Explore
 		else if(browserName.equals("IE")){
-			System.setProperty("webdriver.ie.driver", "E:\\\\JAVA\\\\Selenium\\\\chromedriver_win32\\\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "D:\\Bhavana\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
 		
