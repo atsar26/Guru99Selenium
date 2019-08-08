@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16740" started-at="2019-08-08T10:30:50Z" finished-at="2019-08-08T10:31:07Z">
+  <suite name="Default suite" duration-ms="15585" started-at="2019-08-08T14:55:01Z" finished-at="2019-08-08T14:55:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16740" started-at="2019-08-08T10:30:50Z" finished-at="2019-08-08T10:31:07Z">
+    <test name="Default test" duration-ms="15585" started-at="2019-08-08T14:55:01Z" finished-at="2019-08-08T14:55:16Z">
       <class name="day1.Day1MobileMenu">
-        <test-method status="PASS" signature="MobileSortByName()[pri:0, instance:day1.Day1MobileMenu@28d25987]" name="MobileSortByName" duration-ms="16705" started-at="2019-08-08T10:30:50Z" finished-at="2019-08-08T10:31:07Z">
+        <test-method status="PASS" signature="MobileSortByName()[pri:0, instance:day1.Day1MobileMenu@28d25987]" name="MobileSortByName" duration-ms="15544" started-at="2019-08-08T14:55:01Z" finished-at="2019-08-08T14:55:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileSortByName -->
