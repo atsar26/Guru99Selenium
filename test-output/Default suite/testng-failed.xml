@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day1.Day1MobileMenu">
+      <class name="day02.Day2MobileMenu">
         <methods>
-          <include name="MobileSortByName"/>
+          <include name="MobileCheckCost"/>
         </methods>
-      </class> <!-- day1.Day1MobileMenu -->
+      </class> <!-- day02.Day2MobileMenu -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
