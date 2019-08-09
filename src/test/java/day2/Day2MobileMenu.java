@@ -1,8 +1,11 @@
-package day02;
+package day2;
+
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
@@ -43,5 +46,10 @@ public class Day2MobileMenu extends Base {
 	
 	}
 	
+	@AfterMethod
+	public void tearDown() {
+		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.quit();
+	}
 
 }

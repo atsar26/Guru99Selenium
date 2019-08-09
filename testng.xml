@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Guru99Selenium.AppTest"/>
       <class name="day1.Day1MobileMenu"/>
+      <class name="day02.Day2MobileMenu"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2,11 +2,16 @@ package day1;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import resources.Base;
@@ -43,5 +48,16 @@ public class Day1MobileMenu extends Base {
 		WebElement sortBy = driver.findElement(By.xpath("//select[@title='Sort By']"));
 		Select s= new Select(sortBy);
 		s.selectByVisibleText("Name");
+	
+		//6. Take Screenshots
+		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file,new File ("E://sc.png"));
+		
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.quit();
 	}
 }
