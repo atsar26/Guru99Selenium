@@ -39,7 +39,7 @@ public class CompareMobileProducts extends Base{
 		String parentWindowId = itr.next();
 		String childWindowId = itr.next();
 		
-		// Switch to Pop-up
+		// Switch to Pop-up..
 		driver.switchTo().window(childWindowId);
 		System.out.println("Pop Compare window title: "+driver.getTitle());
 		
@@ -50,7 +50,6 @@ public class CompareMobileProducts extends Base{
 		driver.switchTo().window(parentWindowId);
 		System.out.println("Parent window title: "+driver.getTitle());
 		
-
 	}
 
 }
