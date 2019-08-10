@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import resources.Base;
 
-public class CompareMobileProducts extends Base{
+public class CompareMobileProductsPopup extends Base{
 	
 	@Test
 	public void compareProducts() throws Exception {
