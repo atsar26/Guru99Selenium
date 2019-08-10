@@ -17,7 +17,6 @@ public class CheckMultipleProductAddIntoCart extends Base {
 		driver = initializeDriver();
 		driver.get(prop.getProperty("URL"));
 		// 1. get Url
-		driver.get("http://live.guru99.com");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		HomePage h = new HomePage(driver);
@@ -56,8 +55,8 @@ public class CheckMultipleProductAddIntoCart extends Base {
 	}
 
 	@AfterClass
-	public void tearDown() {
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	public void tearDown() throws Exception{
+		Thread.sleep(3000);
 		driver.quit();
 	}
 
