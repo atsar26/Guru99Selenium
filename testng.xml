@@ -4,8 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.Guru99Selenium.AppTest"/>
+      <class name="day2.Day2MobileMenu"/>
+      <class name="day5.AccountRegister"/>
+      <class name="day3.CheckMultipleProductAddIntoCart"/>
       <class name="day1.Day1MobileMenu"/>
-      <class name="day02.Day2MobileMenu"/>
+      <class name="day4.CompareMobileProductsPopup"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

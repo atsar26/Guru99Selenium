@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20617" started-at="2019-08-10T15:02:06Z" finished-at="2019-08-10T15:02:26Z">
+  <suite name="Default suite" duration-ms="41091" started-at="2019-08-11T12:36:50Z" finished-at="2019-08-11T12:37:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20617" started-at="2019-08-10T15:02:06Z" finished-at="2019-08-10T15:02:26Z">
-      <class name="day4.CompareMobileProducts">
-        <test-method status="PASS" signature="compareProducts()[pri:0, instance:day4.CompareMobileProducts@28d25987]" name="compareProducts" duration-ms="20583" started-at="2019-08-10T15:02:06Z" finished-at="2019-08-10T15:02:26Z">
+    <test name="Default test" duration-ms="41091" started-at="2019-08-11T12:36:50Z" finished-at="2019-08-11T12:37:31Z">
+      <class name="day5.AccountRegister">
+        <test-method status="PASS" signature="newAccountRegistration()[pri:0, instance:day5.AccountRegister@27efef64]" name="newAccountRegistration" duration-ms="39322" started-at="2019-08-11T12:36:50Z" finished-at="2019-08-11T12:37:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compareProducts -->
-      </class> <!-- day4.CompareMobileProducts -->
+        </test-method> <!-- newAccountRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:day5.AccountRegister@27efef64]" name="tearDown" is-config="true" duration-ms="1718" started-at="2019-08-11T12:37:29Z" finished-at="2019-08-11T12:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.AccountRegister -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

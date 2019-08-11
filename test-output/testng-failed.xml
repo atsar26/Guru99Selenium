@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day3.CheckMultipleProductAddIntoCart">
+      <class name="day5.AccountRegister">
         <methods>
-          <include name="checkProductaAddToCart"/>
-          <include name="tearDown"/>
+          <include name="newAccountRegistration"/>
         </methods>
-      </class> <!-- day3.CheckMultipleProductAddIntoCart -->
+      </class> <!-- day5.AccountRegister -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
