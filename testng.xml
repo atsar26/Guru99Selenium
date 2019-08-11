@@ -7,6 +7,7 @@
       <class name="day2.Day2MobileMenu"/>
       <class name="day5.AccountRegister"/>
       <class name="day3.CheckMultipleProductAddIntoCart"/>
+      <class name="day6.PlaceOrder"/>
       <class name="day1.Day1MobileMenu"/>
       <class name="day4.CompareMobileProductsPopup"/>
     </classes>

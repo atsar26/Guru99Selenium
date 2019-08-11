@@ -1,11 +1,8 @@
 package day5;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import pageObjects.HomePage;
 import resources.Base;
 
@@ -21,7 +18,6 @@ public class AccountRegister extends Base {
 		Thread.sleep(1000);
 
 		// Click on MyAccount
-		//// *[@id="top"]/body/div/div/div[3]/div/div[4]/ul/li[1]/a
 		By myAccount = By.linkText("MY ACCOUNT");
 		driver.findElement(myAccount).click();
 		Thread.sleep(1000);
@@ -31,8 +27,8 @@ public class AccountRegister extends Base {
 		driver.findElement(createAccount).click();
 		Thread.sleep(1000);
 
-		// Account registration
-
+		
+		/** Account registration */
 		By firstname = By.id("firstname");
 		driver.findElement(firstname).sendKeys("Abhavsa2");
 
@@ -40,14 +36,14 @@ public class AccountRegister extends Base {
 		driver.findElement(lastname).sendKeys("AbLastName2");
 
 		By email = By.id("email_address");
-		driver.findElement(email).sendKeys("xyz@rediffmail.com");
+		driver.findElement(email).sendKeys("acd@gmail.com");
 		Thread.sleep(1000);
 
 		By pass = By.id("password");
-		driver.findElement(pass).sendKeys("ab@1222");
+		driver.findElement(pass).sendKeys("acd@2222");
 
 		By confirmPass = By.id("confirmation");
-		driver.findElement(confirmPass).sendKeys("ab@1222");
+		driver.findElement(confirmPass).sendKeys("acd@2222");
 		Thread.sleep(1000);
 
 		By registerButton = By.xpath("//*[@id='form-validate']/div[2]/button/span/span");
@@ -61,11 +57,12 @@ public class AccountRegister extends Base {
 		h.tv().click();
 		Thread.sleep(2000);
 
-		By addWishlist = By.xpath("*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[1]/div/div[3]/ul/li[1]/a");
+		By addWishlist = By
+				.xpath("*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[1]/div/div[3]/ul/li[1]/a");
 		driver.findElement(addWishlist).click();
 		Thread.sleep(2000);
 
-		By shareWishlist = By.xpath("//*[@id='wishlist-view-form']/div/div/button[1]/span/span");
+		By shareWishlist = By.xpath("//*[@id='wishlist-view-form']/div/div/button[1]");
 		driver.findElement(shareWishlist).click();
 		Thread.sleep(2000);
 
@@ -84,6 +81,6 @@ public class AccountRegister extends Base {
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		driver.quit();
-	  }
-	
+	}
+
 }
